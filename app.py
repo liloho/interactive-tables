@@ -3,7 +3,7 @@ import pandas as pd
 import emoji
 
 st.set_page_config(
-    page_title="Global CO2 emissions",
+    page_title="Global CO₂ emissions",
     page_icon="💨",
     layout="wide",
     )
@@ -50,7 +50,7 @@ with col_table:
                 "Country", width="Large"
             ),       
             "Emissions 1990 to 2021": st.column_config.LineChartColumn(
-                "Fossil CO2 1990, 2005, 2017, 2021 (Mt CO2)", 
+                "Fossil CO₂ 1990, 2005, 2017, 2021 (Mt CO₂)", 
                 y_min=0, y_max=None, width="Large"
             ),
             "2017 (% of world)": st.column_config.ProgressColumn(
@@ -64,13 +64,13 @@ with col_table:
             ),
         },
         hide_index=True,
-        width = 1000, 
+        width = 950, 
         height = 550
     )
     
 # Text
 with col_text:
-    st.title("Global Carbon Dioxide Emissions")
+    st.title("Global CO₂ Emissions")
     st.subheader("Emissions by country")
     st.write("")
     st.markdown("The table shows Carbon dioxide (CO₂) emissions per country for 1990, 2005, 2017 and 2021 (in megatonnes). It only includes emissions from fossil fuels and industry not from land use.")
