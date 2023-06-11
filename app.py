@@ -79,4 +79,4 @@ with col_text:
 
 # Footer
 st.divider()
-st.markdown("Made by Lisa Hornung, follow me on [Github](https://github.com/Lisa-Ho), [Mastodon](https://fosstodon.org/@LisaHornung), [Linkedin](https://www.linkedin.com/in/lisa-maria-hornung/), and [Twitter](https://twitter.com/LisaHornung_)")
+st.markdown("Made by Lisa Hornung using 🎈Streamlit 1.23.1 - Full code available [here](https://github.com/liloho/interactive-tables). Follow me on [Github](https://github.com/Lisa-Ho), [Mastodon](https://fosstodon.org/@LisaHornung), [Linkedin](https://www.linkedin.com/in/lisa-maria-hornung/), and [Twitter](https://twitter.com/LisaHornung_)")
